@@ -1,6 +1,18 @@
 # golion
 A Micro Web Framework 
 
+### Make
+
+````
+make run
+make build 
+make build-linux
+make test
+make clean
+````
+
+
+
 ### Third-party dependencies
 
 ##### 1. Go config
