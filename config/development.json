@@ -1,0 +1,20 @@
+{
+  "ServiceSettings": {
+    "SiteURL": "",
+    "ListenAddress": ":8000",
+    "EnablePProf": true,
+    "PProfListenAddress": ":8061"
+  },
+  "LogSettings": {
+    "EnableConsole": true,
+    "ConsoleLevel": "INFO",
+    "ConsoleJson": true
+  },
+  "SqlSettings": {
+    "DriverName": "mysql",
+    "DataSource": "{user}:{password}@tcp(127.0.0.1:3306)/{database}?charset=utf8mb4&parseTime=true&loc=Local"
+  },
+  "JWT": {
+    "secret": "some secret"
+  }
+}
