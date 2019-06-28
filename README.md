@@ -1,7 +1,7 @@
 # golion
 A Micro Web Framework 
 
-### Make
+### 1. Make
 
 ````
 make run
@@ -13,7 +13,7 @@ make clean
 
 
 
-### Third-party dependencies
+### 2. Third-party dependencies
 
 ##### 1. Go config
 > Go Config is a pluggable dynamic config library https://github.com/micro/go-micro/tree/master/config 
